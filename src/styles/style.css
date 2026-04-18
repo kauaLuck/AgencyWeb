@@ -41,3 +41,77 @@ header{
     font-weight: var( --fonte-size-button);
 
 }
+
+/*---------------- MAIN -------------------*/
+
+main{
+    display: flex; /* Para que o grupo fica ao lado do outro*/
+    justify-content: center; /*centralizar na horizental*/
+    align-items: center; /*Centraliza na vertical */
+    gap: 50px; /* Espacamento de grupos*/
+    background-color: var(--color-blue-10); /* Cor do fundo da página*/
+    padding: 50px 0; /*espacamento interno*/
+
+}
+
+.main-content{
+    display: flex; /* Para centralizar um do lado do outro*/
+    flex-direction: column;/*Deixa em coluna*/
+    gap: 30px; /* Espacamento entre os elementos*/
+    width: 520px; /* Largura do elemento*/
+
+}
+
+.main-content h1 {
+    font-size: var(--fonte-size-h1 ); /*tamanho de fonte*/
+    font-family: var(--fonte-family-primary);
+    font-weight: var(--fonte-weight-h1);
+}
+
+.main-content h1 span{
+    color: var(--color-blue);
+}
+
+.main-content p{
+    font-family: var(--font-family-primary);/* Altera a fonte*/
+    color: var(--color-gray ); /*altera a cor do textp*/
+    line-height: 30px; /* Distância entre as linhas*/
+}
+
+.container-cta{
+    display: flex; /* Centralizar grupo um ao lado do outro*/
+    gap: 10px; 
+}
+.btn-primary, .btn-secondary{
+    padding: 8px 55px; /* Espacamento interno*/
+    border-radius: 10px; /* Arredondamento da borda */
+    font-weight: var( --fonte-weight-button); /* Espessura da fonte*/
+    text-decoration: none; /* Decoração de textp*/
+    font-family: var(--font-family-primary);/* Familia de fonte */
+}
+
+
+.btn-primary{
+    background-color: var(--color-blue); /*Cor de fundo*/
+    color: var(--color-white);/* Cor do texto*/
+    transition: 0.3s; /**/
+
+}
+
+.btn-primary:hover{
+    background-color: #005e89;
+
+}
+
+.btn-secondary{
+    background-color: var(--color-white);/*Cor de fundo*/
+    color: var(--color-blue); /* Cor do texto*/
+    border: 1px solid var(--color-blue);/* Borda do elemento*/
+    transition: 0.3s; /**/
+}
+
+.btn-secondary:hover{
+    background-color: #c6c6c6;
+}
+
+
