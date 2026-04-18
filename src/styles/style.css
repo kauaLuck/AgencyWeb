@@ -38,6 +38,6 @@ header{
     color: var(--color-white);
     border-radius: 10px;
     padding: 10px 20px;
-    font-weight: var( --fonte-size-button : 16px;);
+    font-weight: var( --fonte-size-button);
 
 }
