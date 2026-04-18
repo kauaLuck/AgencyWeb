@@ -1,1 +1,43 @@
-@import url("./global.css")
+@import url("./global.css");
+
+header{
+    display: flex;/*'Para que o grupo fique ao lado do outro '*/
+    justify-content: space-between; /*Colocar nas extremidades */
+    align-items: center; /* Centralizar na vertical*/
+    padding: 30px; /* Espacamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3);/* Borda inferior*/
+}
+
+.container-nav-header{
+    display: flex; /*Para que o grupo fique ao lado do outro*/
+    align-items: center;/*Centraliza na vertical*/
+    gap: 70px;/* Distância estre elementos */
+    
+}
+
+.navigation-header ul{ /* So vai estilizar as tags ul que estiver dentro da navigatin-header*/
+    display: flex; /*Para que o grupo fique ao ldo do outro*/
+    gap: 40px; /* Distância entre os elementos*/
+    list-style: none; /* Remove a bolinha*/
+}
+
+.navigation-header ul li a{
+    text-decoration: none; /* Decoração do texto*/
+    color: var(--color-black);/* Cor do texto*/
+    font-family: var(--font-family-primary) /* Familia da fonte*/
+}
+
+.navigation-header ul li .menu-active{
+    color: var(--color-blue);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var( --fonte-size-button);
+
+}
