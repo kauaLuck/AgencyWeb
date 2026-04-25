@@ -111,7 +111,36 @@ main{
 }
 
 .btn-secondary:hover{
-    background-color: #c6c6c6;
+    background-color: #c6c6c6; /* Cor de fundo */
+}
+
+/*---------------------- SERVICES ----------------------*/
+
+.section-services{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 0;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+
+.container-item-services{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-item-services h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--fonte-weight-h4);
+    font-size: var(--fonte-size-h4);
+}
+
+.container-item-services p{
+    font-family: var(--font-family-primary);
+    color: var(--color-gray-2);
+    font-size: var(--fonte-size-capton );
 }
 
 
