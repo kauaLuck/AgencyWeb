@@ -111,7 +111,7 @@ main{
 }
 
 .btn-secondary:hover{
-    background-color: #c6c6c6;
+    background-color: #c6c6c6; /* Cor de fundo */
 }
 
 
