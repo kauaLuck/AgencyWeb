@@ -1,122 +1,167 @@
 @import url("./global.css");
 
-header{
-    display: flex;/*'Para que o grupo fique ao lado do outro '*/
-    justify-content: space-between; /*Colocar nas extremidades */
-    align-items: center; /* Centralizar na vertical*/
-    padding: 30px; /* Espacamento interno*/
-    border-bottom: 0.7px solid var(--color-gray-3);/* Borda inferior*/
+header {
+    display: flex;
+    /*'Para que o grupo fique ao lado do outro '*/
+    justify-content: space-between;
+    /*Colocar nas extremidades */
+    align-items: center;
+    /* Centralizar na vertical*/
+    padding: 30px;
+    /* Espacamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3);
+    /* Borda inferior*/
 }
 
-.container-nav-header{
-    display: flex; /*Para que o grupo fique ao lado do outro*/
-    align-items: center;/*Centraliza na vertical*/
-    gap: 70px;/* Distância estre elementos */
-    
+.container-nav-header {
+    display: flex;
+    /*Para que o grupo fique ao lado do outro*/
+    align-items: center;
+    /*Centraliza na vertical*/
+    gap: 70px;
+    /* Distância estre elementos */
+
 }
 
-.navigation-header ul{ /* So vai estilizar as tags ul que estiver dentro da navigatin-header*/
-    display: flex; /*Para que o grupo fique ao ldo do outro*/
-    gap: 40px; /* Distância entre os elementos*/
-    list-style: none; /* Remove a bolinha*/
+.navigation-header ul {
+    /* So vai estilizar as tags ul que estiver dentro da navigatin-header*/
+    display: flex;
+    /*Para que o grupo fique ao ldo do outro*/
+    gap: 40px;
+    /* Distância entre os elementos*/
+    list-style: none;
+    /* Remove a bolinha*/
 }
 
-.navigation-header ul li a{
-    text-decoration: none; /* Decoração do texto*/
-    color: var(--color-black);/* Cor do texto*/
-    font-family: var(--fonte-family-primary) /* Familia da fonte*/
+.navigation-header ul li a {
+    text-decoration: none;
+    /* Decoração do texto*/
+    color: var(--color-black);
+    /* Cor do texto*/
+    font-family: var(--fonte-family-primary)
+        /* Familia da fonte*/
 }
 
-.navigation-header ul li .menu-active{
+.navigation-header ul li .menu-active {
     color: var(--color-blue);
 }
 
-.btn-header{
+.btn-header {
     font-family: var(--fonte-family-primary);
     text-decoration: none;
     background-color: var(--color-blue);
     color: var(--color-white);
     border-radius: 10px;
     padding: 10px 20px;
-    font-weight: var( --fonte-size-button);
+    font-weight: var(--fonte-size-button);
 
 }
 
 /*---------------- MAIN -------------------*/
 
-main{
-    display: flex; /* Para que o grupo fica ao lado do outro*/
-    justify-content: center; /*centralizar na horizental*/
-    align-items: center; /*Centraliza na vertical */
-    gap: 50px; /* Espacamento de grupos*/
-    background-color: var(--color-blue-10); /* Cor do fundo da página*/
-    padding: 50px 0; /*espacamento interno*/
+main {
+    display: flex;
+    /* Para que o grupo fica ao lado do outro*/
+    justify-content: center;
+    /*centralizar na horizental*/
+    align-items: center;
+    /*Centraliza na vertical */
+    gap: 50px;
+    /* Espacamento de grupos*/
+    background-color: var(--color-blue-10);
+    /* Cor do fundo da página*/
+    padding: 50px 0;
+    /*espacamento interno*/
 
 }
 
-.main-content{
-    display: flex; /* Para centralizar um do lado do outro*/
-    flex-direction: column;/*Deixa em coluna*/
-    gap: 30px; /* Espacamento entre os elementos*/
-    width: 520px; /* Largura do elemento*/
+.main-content {
+    display: flex;
+    /* Para centralizar um do lado do outro*/
+    flex-direction: column;
+    /*Deixa em coluna*/
+    gap: 30px;
+    /* Espacamento entre os elementos*/
+    width: 520px;
+    /* Largura do elemento*/
 
 }
 
 .main-content h1 {
-    font-size: var(--fonte-size-h1 ); /*tamanho de fonte*/
+    font-size: var(--fonte-size-h1);
+    /*tamanho de fonte*/
     font-family: var(--fonte-family-primary);
     font-weight: var(--fonte-weight-h1);
 }
 
-.main-content h1 span{
+.main-content h1 span {
     color: var(--color-blue);
 }
 
-.main-content p{
-    font-family: var(--fonte-family-primary);/* Altera a fonte*/
-    color: var(--color-gray ); /*altera a cor do textp*/
-    line-height: 30px; /* Distância entre as linhas*/
+.main-content p {
+    font-family: var(--fonte-family-primary);
+    /* Altera a fonte*/
+    color: var(--color-gray);
+    /*altera a cor do textp*/
+    line-height: 30px;
+    /* Distância entre as linhas*/
 }
 
-.container-cta{
-    display: flex; /* Centralizar grupo um ao lado do outro*/
-    gap: 10px; 
-}
-.btn-primary, .btn-secondary{
-    padding: 8px 55px; /* Espacamento interno*/
-    border-radius: 10px; /* Arredondamento da borda */
-    font-weight: var( --fonte-weight-button); /* Espessura da fonte*/
-    text-decoration: none; /* Decoração de textp*/
-    font-family: var(--fonte-family-primary);/* Familia de fonte */
+.container-cta {
+    display: flex;
+    /* Centralizar grupo um ao lado do outro*/
+    gap: 10px;
 }
 
+.btn-primary,
+.btn-secondary {
+    padding: 8px 55px;
+    /* Espacamento interno*/
+    border-radius: 10px;
+    /* Arredondamento da borda */
+    font-weight: var(--fonte-weight-button);
+    /* Espessura da fonte*/
+    text-decoration: none;
+    /* Decoração de textp*/
+    font-family: var(--fonte-family-primary);
+    /* Familia de fonte */
+}
 
-.btn-primary{
-    background-color: var(--color-blue); /*Cor de fundo*/
-    color: var(--color-white);/* Cor do texto*/
-    transition: 0.3s; /**/
+
+.btn-primary {
+    background-color: var(--color-blue);
+    /*Cor de fundo*/
+    color: var(--color-white);
+    /* Cor do texto*/
+    transition: 0.3s;
+    /**/
 
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #005e89;
 
 }
 
-.btn-secondary{
-    background-color: var(--color-white);/*Cor de fundo*/
-    color: var(--color-blue); /* Cor do texto*/
-    border: 1px solid var(--color-blue);/* Borda do elemento*/
-    transition: 0.3s; /**/
+.btn-secondary {
+    background-color: var(--color-white);
+    /*Cor de fundo*/
+    color: var(--color-blue);
+    /* Cor do texto*/
+    border: 1px solid var(--color-blue);
+    /* Borda do elemento*/
+    transition: 0.3s;
+    /**/
 }
 
-.btn-secondary:hover{
-    background-color: #c6c6c6; /* Cor de fundo */
+.btn-secondary:hover {
+    background-color: #c6c6c6;
+    /* Cor de fundo */
 }
 
 /*---------------------- SERVICES ----------------------*/
 
-.section-services{
+.section-services {
     display: grid;
     grid-template-columns: repeat(4, max-content);
     justify-content: center;
@@ -125,49 +170,59 @@ main{
     border-bottom: 0.7px solid var(--color-gray-3);
 }
 
-.container-item-services{
+.container-item-services {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.container-item-services h2{
+.container-item-services h2 {
     font-family: var(--fonte-family-primary);
     font-weight: var(--fonte-weight-h4);
     font-size: var(--fonte-size-h4);
 }
 
-.container-item-services p{
+.container-item-services p {
     font-family: var(--fonte-family-primary);
     color: var(--color-gray-2);
-    font-size: var(--fonte-size-capton );
+    font-size: var(--fonte-size-capton);
 }
 
 /*--------- SECTION DETAILS---------------*/
 
-.section-details{
-    display: flex; /*Habilitar o gap*/
-    flex-direction: column;/*colocar os elementos em coluna*/
-    gap: 80px; /*Distância entre os elementos*/
-    align-items: center;/* Cuida da horizontal( flex-direction:column )*/
-    padding: 80px 0;/* Espaçamento interno*/
+.section-details {
+    display: flex;
+    /*Habilitar o gap*/
+    flex-direction: column;
+    /*colocar os elementos em coluna*/
+    gap: 80px;
+    /*Distância entre os elementos*/
+    align-items: center;
+    /* Cuida da horizontal( flex-direction:column )*/
+    padding: 80px 0;
+    /* Espaçamento interno*/
 }
-.details-presentation{
+
+.details-presentation {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    text-align: center; /*colocar o texto no centro*/
+    text-align: center;
+    /*colocar o texto no centro*/
 
 }
 
-.details-presentation h2{
-    font-size: var(--fonte-size-h2);/* Tamanho da fonte*/
-    font-family: var(--fonte-family-primary);/* família da fonte*/
-    font-weight: var(--fonte-weight-h2);/* espessura da fonte*/
+.details-presentation h2 {
+    font-size: var(--fonte-size-h2);
+    /* Tamanho da fonte*/
+    font-family: var(--fonte-family-primary);
+    /* família da fonte*/
+    font-weight: var(--fonte-weight-h2);
+    /* espessura da fonte*/
 
 }
 
-.details-presentation p{
+.details-presentation p {
     font-family: var(--fonte-family-primary);
     font-size: var(-fonte-weight-body);
     color: var(--color-gray-2);
@@ -175,47 +230,57 @@ main{
     margin: 0 auto;
 }
 
-.service-description{
-     display: flex; /* Para que o grupo fica ao lado do outro*/
-    align-items: center; /*centralizar na vertical*/
-    gap: 60px; 
-    
+.service-description {
+    display: flex;
+    /* Para que o grupo fica ao lado do outro*/
+    align-items: center;
+    /*centralizar na vertical*/
+    gap: 60px;
+
 }
 
-.content-service{
-    display: flex; /*habilitar o gap */
-    flex-direction: column;/* colocar em coluna*/
-    gap: 40px;    /*Distância entre os elementos*/
+.service-description-reverse {
+    flex-direction: row-reverse;
 }
 
-.service-details{
+.content-service {
+    display: flex;
+    /*habilitar o gap */
+    flex-direction: column;
+    /* colocar em coluna*/
+    gap: 40px;
+    /*Distância entre os elementos*/
+}
+
+.service-details {
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.service-details div span{
-    font-size: var(--fonte-size-h4); 
+.service-details div span {
+    font-size: var(--fonte-size-h4);
     font-weight: var(--fonte-weight-h4);
     font-family: var(--fonte-family-primary);
 }
 
-.service-details div p{
-    font-size: var( --fonte-size-capton);
+.service-details div p {
+    font-size: var(--fonte-size-capton);
     font-family: var(--fonte-family-primary);
     color: var(--color-gray-2)
 }
 
-.content-service h3{
-    font-size: var(--fonte-size-h3 );
+.content-service h3 {
+    font-size: var(--fonte-size-h3);
     font-family: var(--fonte-family-primary);
-    font-weight: var(--fonte-weight-h3 );
+    font-weight: var(--fonte-weight-h3);
     width: 420px;
 }
 
-.content-service h3 span{
+.content-service h3 span {
     color: var(--color-blue);
 }
+
 .content-service p {
     font-family: var(--fonte-family-primary);
     color: var(--color-gray);
@@ -225,43 +290,45 @@ main{
 
 /*--------SECTION BENEFIT----------*/
 
-.section-benefit{
+.section-benefit {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.card-benefit{
+.card-benefit {
     display: flex;
     flex-direction: column;
-    gap: 35px;align-items: center;
+    gap: 35px;
+    align-items: center;
     padding: 60px 48px;
     border-radius: 20px;
-    
+
 }
-.card-benefit p{
+
+.card-benefit p {
     width: 458px;
 }
 
-.card-benefit-secondary{
+.card-benefit-secondary {
     background-color: #f4f4f4;
 }
 
-.card-benefit h2{
+.card-benefit h2 {
     font-family: var(--fonte-family-primary);
     font-size: var(--fonte-size-h3);
     width: 365px;
     text-align: center;
 }
 
-.card-benefit p{
+.card-benefit p {
     font-family: var(--fonte-family-primary);
     color: var(--color-gray);
     text-align: center;
     width: 458px;
 }
 
-.btn-benefit{
+.btn-benefit {
     padding: 10px 35px;
     border-radius: 10px;
     background-color: var(--color-blue);
@@ -270,17 +337,18 @@ main{
     font-family: var(--fonte-family-primary);
     font-weight: var(--fonte-weight-button);
 }
-.card-benefit-primary{
+
+.card-benefit-primary {
     background-color: var(--color-blue);
     color: var(--color-white);
 
 }
 
-.card-benefit-primary p{
+.card-benefit-primary p {
     color: var(--color-white);
 }
 
-.btn-benefit-secundary{
+.btn-benefit-secundary {
     background-color: var(--color-white);
     padding: 10px 35px;
     border-radius: 10px;
@@ -289,14 +357,15 @@ main{
     font-family: var(--fonte-family-primary);
     font-weight: var(--fonte-weight-button);
 }
+
 /*-----------------Section-company-----------------------*/
-.sectio-company{
+.sectio-company {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     margin-top: 40px;
-    padding: 80px 0 ;
+    padding: 80px 0;
 }
 
 .sectio-company h2 {
@@ -305,12 +374,12 @@ main{
     font-size: var(--fonte-size-h3)
 }
 
-.container-company{
+.container-company {
     display: flex;
     gap: 80px;
 }
 
-.section-contact{
+.section-contact {
     background-color: var(--color-blue-10);
     display: flex;
     flex-direction: column;
@@ -319,7 +388,7 @@ main{
     padding: 140px 0;
 }
 
-.section-contact h2{
+.section-contact h2 {
     font-family: var(--fonte-family-primary);
     font-size: var(--fonte-size-h2);
     font-weight: var(--fonte-weight-h2);
@@ -327,21 +396,22 @@ main{
     width: 478px;
 }
 
-.section-contact form{
+.section-contact form {
     display: flex;
     gap: 14px;
 }
 
 
-.section-contact form input{
+.section-contact form input {
     padding: 20px 35px;
     border-radius: 10px;
     width: 532px;
     font-family: var(--fonte-family-primary);
-    box-shadow: 0 4px 84px rgb(0, 0, 0, 0.07); /* Dar sombra pro objeto direcionado*/
+    box-shadow: 0 4px 84px rgb(0, 0, 0, 0.07);
+    /* Dar sombra pro objeto direcionado*/
 }
 
-.section-contact form button{
+.section-contact form button {
     background-color: var(--color-black);
     padding: 20px 40px;
     border-radius: 10px;
@@ -350,15 +420,16 @@ main{
     text-transform: uppercase;
     font-weight: var(--fonte-weight-button);
 }
+
 /*--------------- Footer----------------*/
-footer{
+footer {
     display: flex;
     gap: 99px;
     justify-content: center;
     padding: 60px 0;
 }
 
-.footer-informations{
+.footer-informations {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -372,29 +443,30 @@ footer{
     color: #515151;
 }
 
-.footer-informations ul{
+.footer-informations ul {
     list-style: none;
 }
 
-.footer-informations ul li a, .footer-informations ul li{
+.footer-informations ul li a,
+.footer-informations ul li {
     text-decoration: none;
     color: #515151;
     font-size: var(--fonte-size-capton);
 }
 
-.footer-informations h2{
+.footer-informations h2 {
     font-size: var(--fonte-size-h4);
     font-weight: var(--fonte-weight-h4);
 }
 
-.footer-socials{
+.footer-socials {
     display: flex;
     gap: 15px;
     align-items: flex-start;
 
 }
 
-.social-item{
+.social-item {
     display: flex;
     padding: 12px;
     justify-content: center;
@@ -405,9 +477,109 @@ footer{
     cursor: pointer;
 }
 
-.social-item:hover{
+.social-item:hover {
     background-color: var(--color-blue-10);
     transform: translateY(-10px);
 }
 
+@media (max-width: 884px) {
+    main {
+        flex-direction: column-reverse;
+    }
 
+    main-img {
+        width: 400px;
+    }
+
+    .main-content {
+        text-align: center;
+    }
+
+    .container-cta {
+        justify-content: center;
+    }
+
+    .section-services {
+        grid-template-columns: repeat(2, max-content);
+        gap: 50px 90px;
+    }
+
+    .details-presentation h2 {
+        width: 450px;
+        margin: 0 auto;
+
+    }
+
+    .details-presentation p {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .service-description {
+        flex-direction: column;
+    }
+
+    .section-benefit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-company {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+    }
+
+    footer {
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 40px
+    }
+}
+
+@media (max-width: 480px) {
+
+    .container-nav-header {
+        display: none;
+    }
+
+    main img {
+        width: 280px;
+    }
+
+    main h1 {
+        font-size: var(--fonte-size-h2);
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .main-content p {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .section-services {
+        grid-template-columns: max-content;
+    }
+
+    .details-presentation h2 {
+        width: 360px;
+        font-size: var(--fonte-size-h3);
+    }
+
+    .details-presentation p {
+        width: 360px;
+    }
+
+    .service-details{
+        width: 300px;
+    }
+    .section-benefit p{
+        width: 300px;
+    }
+
+    .section-contact form input{
+        width: 300px;
+    }
+
+
+}
