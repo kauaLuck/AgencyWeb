@@ -101,8 +101,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Kauã Rodrigues Vieira</a>
  <br />
  
-[![Gmail Badge]([![Email](https://img.shields.io/badge/Email-uaka6142%40gmail.com-red?style=flat-square&logo=gmail&logoColor=white)](mailto:uaka6142@gmail.com))
-
+> 🔗 **Acesse o projeto online:** https://kaualuck.github.io/Fintech/
 ---
 
 
